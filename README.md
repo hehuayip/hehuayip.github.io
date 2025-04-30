@@ -39,7 +39,7 @@
       width: 95%;
       box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
       border-radius: 18px;
-      margin: 2rem auto; /* reduced margin */
+      margin: 2rem auto;
       position: relative;
       z-index: 2;
       transition: all 0.4s ease;
@@ -82,7 +82,8 @@
       font-weight: 600;
       font-style: italic;
       color: #ffdeff;
-      background: none; /* fix: remove white background */
+      background-color: transparent !important;
+      display: inline;
     }
 
     .quote {
