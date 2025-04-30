@@ -79,11 +79,13 @@
     }
 
     .highlight {
-      font-weight: 600;
-      font-style: italic;
-      color: #ffdeff;
-      background: none; /* fix: remove white background */
-    }
+  font-weight: 600;
+  font-style: italic;
+  color: #ffdeff;
+  background-color: transparent; /* explicitly transparent */
+  display: inline; /* prevent accidental block behavior */
+}
+
 
     .quote {
       font-family: monospace;
