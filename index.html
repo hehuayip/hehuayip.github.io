@@ -128,8 +128,9 @@
 
     @media (max-width: 600px) {
       .container {
-        padding: 2rem 1.2rem;
-        margin: 3rem 1rem;
+        padding: 2rem 1rem;
+        margin: 2rem auto;
+        width: 90%;
       }
 
       h3, h4 {
